@@ -1,0 +1,28 @@
+{
+  "name": "littlegame",
+  "version": "1.0.0",
+  "description": "littlegame",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weldson/littlegame.git"
+  },
+  "keywords": [
+    "game",
+    "socket.io"
+  ],
+  "author": "weldson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weldson/littlegame/issues"
+  },
+  "homepage": "https://github.com/weldson/littlegame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
