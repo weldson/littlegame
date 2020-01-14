@@ -5,7 +5,6 @@ export default function createKeyboardListener(document) {
     };
 
     function subscribe(observerFunction) {
-        console.log(observerFunction)
         state.observers.push(observerFunction);
     }
 
@@ -25,9 +24,11 @@ export default function createKeyboardListener(document) {
         const keyPressed = event.key;
     
         const command = {
+            type: 'move-player',
             playerId: state.playerId,
             keyPressed
         };
+        
         notifyAll(command);
     }
 
